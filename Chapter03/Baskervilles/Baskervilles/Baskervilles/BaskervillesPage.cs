@@ -11,6 +11,9 @@ namespace Baskervilles
             {
                 VerticalOptions = LayoutOptions.Center,
                 Text =
+                    "Jimmy\n" +
+                    "Jimmy\n" +
+                    "Jimmy\n" +
                     "Mr. Sherlock Holmes, who was usually very late in " +
                     "the mornings, save upon those not infrequent " +
                     "occasions when he was up all night, was seated at " +
