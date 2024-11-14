@@ -55,7 +55,7 @@ namespace BlackCat
                                 Text = line,
 
                                 // Black text for ebooks!
-                                TextColor = Color.Sienna
+                                TextColor = Color.Green
                             };
                             // Add subsequent labels to textStack.
                             textStack.Children.Add(label);

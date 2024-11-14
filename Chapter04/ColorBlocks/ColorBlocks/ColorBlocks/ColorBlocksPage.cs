@@ -54,7 +54,7 @@ namespace ColorBlocks
         {
             return new Frame
             {
-                OutlineColor = Color.Accent,
+                OutlineColor = Color.Coral,
                 Padding = new Thickness(5),
                 Content = new StackLayout
                 {

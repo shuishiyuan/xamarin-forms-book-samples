@@ -12,7 +12,7 @@ namespace FramedText
             Content = new Frame
             {
                 OutlineColor = Color.Black,
-                BackgroundColor = Color.Yellow,
+                BackgroundColor = Color.Chocolate,
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.Center,
 
@@ -21,7 +21,7 @@ namespace FramedText
                     Text = "I've been framed!",
                     FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                     FontAttributes = FontAttributes.Italic,
-                    TextColor = Color.Blue
+                    TextColor = Color.Aqua
                 }
             };
         }
