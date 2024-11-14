@@ -25,6 +25,11 @@ namespace ReflectedColors
                         CreateColorLabel((Color)info.GetValue(null), info.Name));
                 }
             }
+            
+            stackLayout.Children.Add(CreateColorLabel(Color.Cyan, "Amazing Amazing Amazing"));
+            stackLayout.Children.Add(CreateColorLabel(Color.Cyan, "Dividing Line"));
+            stackLayout.Children.Add(CreateColorLabel(Color.Cyan, "Dividing Line"));
+            stackLayout.Children.Add(CreateColorLabel(Color.Cyan, "Amazing Amazing Amazing"));
 
             // Loop through the Color structure properties.
             foreach (PropertyInfo info in typeof(Color).GetRuntimeProperties())
