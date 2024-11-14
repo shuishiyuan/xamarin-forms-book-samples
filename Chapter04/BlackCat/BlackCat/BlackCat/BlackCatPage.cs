@@ -28,18 +28,19 @@ namespace BlackCat
                     string line;
 
                     // Read in a line (which is actually a paragraph).
-                    while (null != (line = reader.ReadLine())) 
+                    while (null != (line = reader.ReadLine()))
                     {
-                        Label label = new Label 
-                        {
-                            Text = line,
-
-                            // Black text for ebooks!
-                            TextColor = Color.Black
-                        };
-
+                        Label label;
                         if (!gotTitle)
                         {
+                            label = new Label 
+                            {
+                                Text = line,
+
+                                // Black text for ebooks!
+                                TextColor = Color.Chocolate
+                            };
+
                             // Add first label (the title) to mainStack.
                             label.HorizontalOptions = LayoutOptions.Center;
                             label.FontSize = Device.GetNamedSize(NamedSize.Medium, label);
@@ -49,6 +50,13 @@ namespace BlackCat
                         }
                         else
                         {
+                            label = new Label 
+                            {
+                                Text = line,
+
+                                // Black text for ebooks!
+                                TextColor = Color.Sienna
+                            };
                             // Add subsequent labels to textStack.
                             textStack.Children.Add(label);
                         }
