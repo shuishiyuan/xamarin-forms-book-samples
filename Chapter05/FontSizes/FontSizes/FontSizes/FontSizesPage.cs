@@ -41,12 +41,12 @@ namespace FontSizes
             stackLayout.Children.Add(
                 new BoxView
                 {
-                    Color = Color.Accent,
-                    HeightRequest = resolution / 80
+                    Color = Color.Magenta,
+                    HeightRequest = resolution / 10
                 });
 
             // Do some numeric point sizes.
-            int[] ptSizes = { 4, 6, 8, 10, 12 };
+            int[] ptSizes = { 4, 6, 8, 10, 12, 16, 18, 28 };
 
             foreach (double ptSize in ptSizes)
             {
@@ -57,7 +57,7 @@ namespace FontSizes
                         Text = String.Format("Point Size = {0} ({1:F2})",
                                              ptSize, fontSize),
                         FontSize = fontSize,
-                        TextColor = Color.Black
+                        TextColor = Color.Aquamarine
                     });
             }
 
