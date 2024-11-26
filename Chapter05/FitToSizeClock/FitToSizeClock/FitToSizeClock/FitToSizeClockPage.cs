@@ -41,7 +41,7 @@ namespace FitToSizeClock
                 {
                     // Set the Text property of the Label.
                     clockLabel.Text = DateTime.Now.ToString("h:mm:ss-tt\n");
-                    clockLabel.Text += DateTimeOffset.Now.ToString(("h:mm:ss-tt"));
+                    clockLabel.Text += DateTime.UtcNow.ToString(("h:mm:ss-tt"));
                     return true;
                 });
         }
