@@ -5,13 +5,13 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout.Children>
-                <Label Text="Hello from XAML!"
+                <Label Text="Hello from XAML! during initialize component"
                        IsVisible="True"
                        Opacity="0.75"
                        HorizontalTextAlignment="Center"
                        VerticalOptions="CenterAndExpand"
                        TextColor="Blue"
-                       BackgroundColor="#FF8080"
+                       BackgroundColor="Orchid"
                        FontSize="Large"
                        FontAttributes="Bold,Italic" />
             </StackLayout.Children>
